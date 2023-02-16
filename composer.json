@@ -1,0 +1,30 @@
+{
+    "name": "xerof/php-sdk",
+    "description": "description",
+    "version": "1.0.0",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "signature"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alex\\XerofSdk\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "oleksandr.s@tunelab.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "minimum-stability": "dev"
+}
